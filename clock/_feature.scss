@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      color: rgb(5, 17, 13);
+      background-color: rgb(250, 250, 212);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.title{
+    font-size: 3rem;
+}
+
+.view{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 35.5em){
+
+  .view__hours,
+.view__minutes,
+.view__seconds {
+  margin: 1rem 2rem;
+  width: 14rem;
+  background-color: #8cb3d1;
+  font-size: 2rem;
+  
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+  }
+  .view__hours,
+  .view__minutes,
+  .view__seconds {
+    margin: 1rem 1rem;
+    background-color: #1d7c77;
+    font-size: 1.5rem;}
+    
